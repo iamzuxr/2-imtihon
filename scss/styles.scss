@@ -29,7 +29,9 @@
         font-size: 35px;
         margin-right: 1400px;
     }
-    
+    .check-box{
+        display: none;
+    }
     .nav-list{
         display: flex;
         color: black;
@@ -37,6 +39,7 @@
         right: 300px;
         list-style-type: none;
         text-transform: uppercase;
+        font-family: Poppins;
         .nav-item{
             margin: 0 5px;
             font-size: 20px;
@@ -64,6 +67,8 @@
 .section-one{
     width: 1400px;
     padding-top: 150px;
+    font-family: Poppins;
+
     .section-one-text{
         width: 380px;
         height: 240px;
@@ -96,10 +101,16 @@
         padding-left: 740px;
         margin-top: -700px;
     }
+    .site-img_tab{
+        display: none;
+    }
     .site-img-2{
         margin-top: -500px;
         padding-left: 400px;
     }
+}
+.competition-for_tab{
+    display: none;
 }
 .section-two{
     padding-top: 700px;
@@ -111,7 +122,7 @@
         color: black;
         margin-left: 630px;
         font-size: 50px;
-        
+        font-family: Poppins;
     }
     .box-one{
         width: 455px;
@@ -218,6 +229,7 @@
         padding-left: 50px;
         padding-top: 10px;
     }
+
     .box-four-img{
         margin-top: -150px;
         padding-left: 400px;
@@ -229,6 +241,7 @@
     .section-thee-text{
         color: black;
         font-size: 40px;
+        font-family: Poppins;
     }
     
     .section-three-text-2{
@@ -269,6 +282,9 @@
             display: flex;
         }
     }
+    .competition-for_tab{
+        display: none;
+    }
     
 }
 .pricing-title{
@@ -278,7 +294,7 @@
     padding-left: 630px;
     margin-top: 150px;
     margin-bottom: 100px;
-    
+    font-family: Poppins;
 }
 .section-four_images{
     padding-bottom: 50px;
@@ -289,8 +305,6 @@
 .section-four-text{
     font-size: 24px;
     color: #444;
-    .section-four-img{
-    }
 
 }
 .section-four-text2{
@@ -338,6 +352,7 @@
             width: 90%;
         }
         h1{
+            font-family: Poppins;
             font-size: 48px;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
@@ -391,7 +406,7 @@
         margin: 0 50px;
     }
 }
-@media only screen and(max-width: 1400px){
+@media only screen and (max-width:1475px){
     .container{
         width: 1200px;
         margin: 0 50px;
@@ -672,4 +687,1250 @@
         }
     }
 
-}s
+}
+@media only screen and (max-width:1275px){
+    .container{
+        width: 1150px;
+        margin: 0 50px;
+        
+    }
+    .site-header{
+        width: 1150px;
+        
+        .logo{
+            font-size: 32px;
+            margin-top: 35px;
+        }
+        .logo-second{
+            font-size: 32px;
+            margin-right: 1150px;
+            margin-top: 15px;
+        }
+        
+        .nav-list{
+            margin-left: -200px;
+            .nav-item{
+                font-size: 18px;
+                padding-right: 50px;
+            }
+            .link-site{
+                width: 150px;
+                height: 30px;
+                font-size: 20px;
+                top: -5px;
+                padding-top: 5px;
+                .link-site-one{
+                    font-size: 20px;
+                    margin-left: 20px;
+                }
+                
+            }
+        }
+    }
+    .section-one{
+        width: 1150px;
+        padding-top: 150px;
+        .section-one-text{
+            width: 380px;
+            height: 240px;
+            
+            .section-one-text-one{
+                width: 400px;
+                font-size: 60px;
+            }
+            .section-one-text-two{
+                padding-top: 40px;
+                font-size: 30px;
+            }
+            .site-buttom{
+                width: 380px;
+                height: 110px;
+                margin-top: 40px;
+            }
+            .buttom-text{
+                font-size: 40px;
+                top: 30px;
+                left: 90px;  
+            }
+        }
+        .site-img{
+            padding-left: 500px;
+            margin-top: -650px;
+        }
+        .site-img-2{
+            margin-top: -500px;
+            padding-left: 300px;
+        }
+    }
+    .section-two{
+        width: 400px;
+        padding-top: 600px;
+        padding-left: 145px;
+        .section-two-firsttext{
+            margin-left: 400px;
+            font-size: 45px;
+        }
+        .box-one{
+            width: 380px;
+            height: 894px;
+            margin-left: -650px;
+            .box-img-one{
+                padding-left: 8px;
+            }
+            .box-first-text{
+                padding-left: 40px;
+                font-size: 20px;
+            }
+        }
+        .box-text-two{
+            font-size: 15px;
+            padding-top: 30px;
+            width: 350px;   
+            padding-left: 40px;
+        }
+        .buttom-two{
+            width: 183px;
+            height: 47px;
+            margin-top: 100px;
+            margin-left: 40px;
+            border-radius: 5px;
+        }
+        .buttom-two-text{
+            font-size: 20px;
+            padding-left: 40px;
+            padding-top: 10px;
+        }
+        .box-two{
+            width: 380px;
+            height: 530px;
+            border-radius: 5px;
+            margin-top: 100px;
+            left: 370px;
+        }
+        .box-two-img{
+            padding-left: 40px;
+        }
+        .box-two-text{
+            padding-left: 40px;
+            font-size: 20px;
+        }
+        .buttom-three{
+            width: 183px;
+            height: 47px;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+        .buttom-three-text{
+            font-size: 15px;
+            padding-left: 45px;
+            padding-top: 15px;
+        }
+        .box-three{
+            width: 370px;
+            height: 530px;
+            margin-top: 100px;
+        }
+        .box-three-img{
+            margin-left: 20px;
+        }
+        .box-three-text, .box-four-text{
+            padding-left: 40px;
+            padding-top: 40px;
+            font-size: 20px;
+        }
+        .box-four{
+            width: 750px;
+            height: 330px;
+            border-radius: 5px;
+            margin-top: 660px;
+            margin-left: -750px;
+        }
+        .buttom-four{
+            width: 183px;
+            height: 47px;
+            margin-top: 35px;
+            margin-left: 50px;
+        }
+        .buttom-four-text{
+            font-size: 15px;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        .box-four-img{
+            padding-left: 370px;
+            margin-top: -200px;
+        }
+    }
+    .section-three{
+        padding-top: 100px;
+        .section-thee-text{
+            font-size: 35px;
+        }
+        
+        .section-three-text-2{
+            font-size: 18px;
+            width: 480px;
+            padding-top: 50px;
+            
+        }
+        .siteimg{
+            margin-left: -30px;
+        }
+        .cast{
+            width: 800px;
+            margin-top: 350px;
+            font-size: 35px;
+            .cost{
+                padding-left: 210px;
+                .teachers-number, .languages-number{
+                    margin-left: 155px;
+                }
+            }
+            .pupils, .teachers, .language{
+                font-size: 25px;
+                padding-left: 210px;
+            }
+            .teachers{
+                padding-left: 110px;
+            }
+            .language{
+                padding-left: 50px;
+            }
+        }
+        
+    }
+    .pricing-title{
+        font-size: 40px;
+        padding-left: 500px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        
+    }
+    .section-four_images{
+
+        padding-bottom: 40px;
+        .section-four-img2, .section-four-img3{
+            padding-left: 50px;
+        }
+    }
+    .section-four-text{
+        font-size: 24px;
+    }
+    .section-four-text2{
+        width: 270px;
+        font-size: 20px;
+    }
+    .li-item2, .li-item3{
+        padding-left: 130px;
+    }
+    .cena{
+        width: 250px;
+        height: 50px;
+        margin-top: 30px;
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    .last_body{
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 200px;
+        .last_img{
+            width: 60%;
+            
+        }
+        .last_title{
+            width: 80%;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            h4{
+                font-size: 20px;
+                width: 90%;
+            }
+            h1{
+                font-size: 48px;
+            }
+            input{
+                padding: 20px;
+                width: 47%;
+            }
+            button{
+                padding: 20px;
+                width: 250px;
+            }
+        }
+    }
+    .footer{
+        .footer-logo{
+            font-size: 36px;        
+        }
+        .footer-logo-second{
+            font-size: 36px;
+            margin-top: 24px;
+        }
+        .footer-text{
+            font-size: 24px;
+            padding-top: 20px;
+            padding-left: 450px;
+        }
+    }
+
+}
+@media only screen and (max-width:992px){
+    .container{
+        width: 900px;
+        margin: 0 46px;
+        
+    }
+    .site-header{
+        width: 992px;
+        
+        .logo{
+            font-size: 28px;
+            margin-top: 30px;
+        }
+        .logo-second{
+            font-size: 28px;
+            margin-right: 950px;
+            margin-top: 10px;
+        }
+        
+        .nav-list{
+            .nav-item{
+                font-size: 18px;
+                padding-right: 10px;
+            }
+            .link-site{
+                width: 150px;
+                height: 30px;
+                font-size: 20px;
+                padding-top: 5px;
+                margin-left: -200px;
+                .link-site-one{
+                    font-size: 20px;
+                    margin-left: 20px;
+                }
+                
+            }
+        }
+    }
+    .section-one{
+        width: 992px;
+        padding-top: 150px;
+        .section-one-text{
+            width: 380px;
+            height: 240px;
+            
+            .section-one-text-one{
+                width: 350px;
+                font-size: 50px;
+            }
+            .section-one-text-two{
+                padding-top: 40px;
+                font-size: 25px;
+            }
+            .site-buttom{
+                width: 350px;
+                height: 90px;
+                margin-top: 40px;
+                padding-top: 25px;
+            }
+            .buttom-text{
+                font-size: 30px;
+            }
+        }
+        .site-img_desktop{
+            display: none;
+        }
+        .site-img_tab{
+            display: block;
+            padding-top: 150px;
+        }
+        .site-img-2{
+            margin-top: -350px;
+            padding-left: 250px;
+        }
+    }
+    .section-two{
+        width: 300px;
+        padding-top: 500px;
+        padding-left: 145px;
+        .section-two-firsttext{
+            margin-left: 300px;
+            font-size: 45px;
+        }
+        .box-one{
+            width: 340px;
+            height: 800px;
+            margin-left: -550px;
+            .box-img-one{
+                width: 320px;
+            }
+            .box-first-text{
+                padding-left: 30px;
+                font-size: 18px;
+            }
+        }
+        .box-text-two{
+            font-size: 15px;
+            padding-top: 30px;
+            width: 300px;   
+            padding-left: 30px;
+        }
+        .buttom-two{
+            width: 183px;
+            height: 47px;
+            margin-top: 100px;
+            margin-left: 40px;
+            border-radius: 5px;
+        }
+        .buttom-two-text{
+            font-size: 20px;
+            padding-left: 40px;
+            padding-top: 10px;
+        }
+        .box-two{
+            width: 340px;
+            height: 530px;
+            border-radius: 5px;
+            margin-top: 100px;
+            
+        }
+        .box-two-img{
+            padding-left: 10px;
+        }
+        .box-two-text{
+            padding-left: 30px;
+            font-size: 20px;
+        }
+        .buttom-three{
+            width: 183px;
+            height: 47px;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+        .buttom-three-text{
+            font-size: 15px;
+            padding-left: 45px;
+            padding-top: 15px;
+        }
+        .box-three{
+            width: 320px;
+            height: 530px;
+            margin-top: 100px;
+        }
+        .box-three-img{
+            width: 300px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .box-three-text, .box-four-text{
+            padding-left: 40px;
+            padding-top: 40px;
+            font-size: 20px;
+        }
+        .box-four{
+            width: 650px;
+            height: 250px;
+            border-radius: 5px;
+            margin-top: 650px;
+            margin-left: -650px;
+        }
+        .buttom-four{
+            width: 183px;
+            height: 47px;
+            margin-top: 25px;
+            margin-left: 40px;
+        }
+        .buttom-four-text{
+            font-size: 15px;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        .box-four-img{
+            padding-left: 280px;
+            margin-top: -300px;
+        }
+    }
+    .section-three{
+        padding-top: 100px;
+        .section-thee-text{
+            font-size: 35px;
+        }
+        
+        .section-three-text-2{
+            font-size: 18px;
+            width: 480px;
+            padding-top: 50px;
+            
+        }
+        .siteimg{
+            margin-left: -30px;
+        }
+        .competition-for_desktop{
+            display: none;
+        }
+        .competition-for_tab{
+            display: block;
+        }
+        .cast{
+            width: 900px;
+            margin-top: 350px;
+            font-size: 35px;
+            .cost{
+                padding-left: 370px;
+                .teachers-number, .languages-number{
+                    margin-left: 155px;
+                }
+            }
+            .pupils, .teachers, .language{
+                font-size: 25px;
+                padding-left: 370px;
+            }
+            .teachers{
+                padding-left: 110px;
+            }
+            .language{
+                padding-left: 50px;
+            }
+        }
+        
+    }
+    .pricing-title{
+        font-size: 40px;
+        padding-left: 500px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        
+    }
+    .section-four_images{
+        width: 100%;
+        padding-bottom: 40px;
+        .section-four-img{
+            width: 250px;
+            margin-left: 20px;
+        }
+        .section-four-img2, .section-four-img3{
+            width: 280px;
+            padding-left: 5px;
+            margin-left: 30px;
+        }
+    }
+    .section-four-text{
+        font-size: 20px;
+    }
+    .section-four-text2{
+        width: 200px;
+        font-size: 20px;
+    }
+    .li-item2, .li-item3{
+        padding-left: 70px;
+    }
+    .cena{
+        width: 250px;
+        height: 50px;
+        margin-top: 30px;
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    .last_body{
+        width: 992px;
+        margin: 0 auto;
+        padding-top: 180px;
+        .last_img{
+            width: 50%;
+            
+        }
+        .last_title{
+            width: 60%;
+            padding-top: 30px;
+            padding-bottom: 100px;
+            h4{
+                font-size: 20px;
+                width: 90%;
+            }
+            h1{
+                font-size: 48px;
+            }
+            input{
+                padding: 10px;
+                width: 47%;
+                margin-top: 10px;
+            }
+            button{
+                padding: 10px;
+                margin-top: 10px;
+                width: 200px;
+            }
+        }
+    }
+    .footer{
+        width: 900px;
+        .footer-logo{
+            font-size: 36px;        
+        }
+        .footer-logo-second{
+            font-size: 36px;
+            margin-top: 24px;
+        }
+        .footer-text{
+            font-size: 24px;
+            padding-top: 20px;
+            padding-left: 250px;
+        }
+    }
+
+}
+@media only screen and (max-width:767px){
+    .container{
+        width: 700px;
+        margin: 0 40px;
+    }
+    .site-header{
+        width: 700px;
+        height: 50px;
+        
+        .logo{
+            font-size: 28px;
+            margin-top: 30px;
+        }
+        .logo-second{
+            font-size: 28px;
+            margin-right: 950px;
+            margin-top: 10px;
+        }
+        
+        .link-site{
+            display: none;
+        }
+        .check-box{
+            display: block;
+            .checkbox{
+                visibility: hidden;
+                margin-left: -400px;
+                margin-top: -40px;
+            }
+            .fa-bars{
+                font-size: 30px;
+                margin-left: -10px;
+                margin-top: -30px;
+            }
+        }
+        .site-nav{
+            margin-top: 30px;
+        }
+        .nav-list{
+            width: 700px;
+            height: 400px;
+            margin-right: -300px;
+            background-color: #5a686f;
+            text-align: center;
+            flex-direction: column;
+            transform: translateX(-800px);
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            .nav-item{
+                padding-bottom: 25px;
+                padding-top: 20px;
+            }
+        }
+    }
+    .checkbox:checked ~ .nav-list{
+        transform: translateX(0px);
+        opacity: 100;
+    }
+    .site-img_tab{
+        width: 400px;
+        margin-top: 100px;
+        margin-left: -200px;
+    }
+    .bulb{
+        width: 60px;
+        padding-top: 70px;
+        margin-left: -100px;
+    }
+    .section-one{
+        width: 700px;
+        padding-top: 100px;
+        .section-one-text{
+            width: 200px;
+            height: 200px;
+            font-size: 18px;
+            
+            .section-one-text-one{
+                width: 200px;
+                font-size: 30px;
+            }
+            .section-one-text-two{
+                font-size: 18px;
+            }
+            .site-buttom{
+                width: 200px;
+                height: 50px;
+                margin-top: 15px;
+                padding-top: 12px;
+            }
+            .buttom-text{
+                font-size: 20px;
+                padding-left: 50px;
+            }
+        }
+    }
+    .section-two{
+        width: 700px;
+        padding-top: 200px;
+        .section-two-firsttext{
+            font-size: 40px;
+            margin-left: 170px;
+        }
+        .box-one{
+            width: 235px;
+            height: 600px;
+            margin-left: -405px;
+            .box-img-one{
+                width: 190px;
+            }
+            .buttom-two{
+                width: 150px;
+                height: 40px;
+                margin-top: 50px;
+                margin-left: 15px;
+                .buttom-two-text{
+                    padding-left: 30px;
+                    padding-top: 10px;
+                }
+            }
+        }
+        .box-text-two{
+            width: 200px;
+            padding-left: 15px;
+            margin-left: 5px;
+        }
+        .box-two{
+            width: 235px;
+            height: 400px;
+            .box-two-img{
+                width: 200px;
+                height: 170px;
+                padding-left: 5px;
+            }
+            .box-two-text{
+                width: 200px;
+                padding-left: 15px;
+                font-size: 18px;
+                margin-top: 15px;
+            }
+        }
+        .buttom-three{
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .buttom-three-text{
+            font-size: 15px;
+            padding-left: 40px;
+            padding-top: 10px;
+        }
+        .box-three{
+            width: 235px;
+            height: 400px;
+            margin-top: 100px;
+            .box-three-img{
+                width: 215px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                margin-left: 1px;
+            }
+        }
+        .box-three-text, .box-four-text{
+            padding-left: 20px;
+            padding-top: 20px;
+            font-size: 18px;
+        }
+        .box-four{
+            width: 550px;
+            height: 190px;
+            border-radius: 5px;
+            margin-top: 510px;
+            margin-left: -450px;
+            .box-four-text{
+                padding-top: 10px;
+                margin-bottom: -25px;
+            }
+            .buttom-four{
+                width: 153px;
+                height: 37px;
+                margin-top: 15px;
+                margin-left: 20px;
+            }
+            .buttom-four-text{
+                font-size: 15px;
+                padding-left: 40px;
+                padding-top: 10px;
+            }
+            .box-four-img{
+                width: 260px;
+                padding-left: 1px;
+                margin-left: 200px;
+                margin-top: -400px;
+            }
+        }
+    }
+        .section-three{
+            padding-top: 80px;
+                .section-thee-text{
+                    font-size: 30px;
+                }
+                .section-three-text-2{
+                    font-size: 15px;
+                    width: 300px;
+                    padding-top: 50px;
+                    
+                }
+        
+        .siteimg{
+            margin-left: -130px;
+        }
+        .competition-for_tab{
+            display: block;
+        }
+        .cast{
+            width: 700px;
+            margin-top: 350px;
+            font-size: 20px;
+            .cost{
+                padding-left: 655px;
+                .teachers-number, .languages-number{
+                    margin-left: 95px;
+                }
+            }
+            .pupils, .teachers, .language{
+                font-size: 20px;
+                padding-left: 645px;
+            }
+            .teachers{
+                padding-left: 50px;
+            }
+            .language{
+                padding-left: 50px;
+            }
+        }
+        
+    }
+        .pricing-title{
+            font-size: 30px;
+            padding-left: 300px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .section-four_images{
+            width: 100%;
+            padding-bottom: 40px;
+        .section-four-img{
+            width: 200px;
+            margin-left: 20px;
+        }
+        .section-four-img2, .section-four-img3{
+            width: 200px;
+            padding-left: 5px;
+            margin-left: 30px;
+        }
+    }
+    .section-four-text{
+        font-size: 18px;
+    }
+    .section-four-text2{
+        width: 150px;
+        font-size: 18px;
+    }
+    .li-item2, .li-item3{
+        padding-left: 45px;
+    }
+    .cena{
+        width: 200px;
+        height: 50px;
+        margin-top: 30px;
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .last_body{
+        width: 992px;
+        margin: 0 auto;
+        padding-top: 180px;
+        .last_img{
+            width: 50%;
+            
+        }
+        .resourse-img{
+            width: 350px;
+            
+        }
+        .last_title{
+            width: 50%;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            h4{
+                font-size: 12px;
+                width: 90%;
+            }
+            h1{
+                font-size: 38px;
+            }
+        }
+    }
+    .footer{
+        width: 700px;
+        .footer-logo{
+            font-size: 30px;        
+        }
+        .footer-logo-second{
+            font-size: 30px;
+            margin-top: 21px;
+        }
+        .footer-text{
+            font-size: 20px;
+            padding-top: 24px;
+            padding-left: 150px;
+        }
+    }
+}   
+@media only screen and (max-width:575px){
+    .container{
+        width: 500px;
+        margin-left: 35px;
+        margin-right: 40px;
+    }
+    .site-header{
+        width: 500px;
+        height: 50px;
+        
+        .logo{
+            font-size: 25px;
+            margin-top: 25px;
+        }
+        .logo-second{
+            font-size: 25px;
+            margin-right: 950px;
+            margin-top: 10px;
+        }
+        
+        .link-site{
+            display: none;
+        }
+        .check-box{
+            display: block;
+            .checkbox{
+                visibility: hidden;
+                margin-left: -580px;
+                margin-top: -40px;
+            }
+            .fa-bars{
+                font-size: 30px;
+                margin-left: -10px;
+                margin-top: -30px;
+            }
+        }
+        .site-nav{
+            margin-top: 30px;
+        }
+        .nav-list{
+            width: 500px;
+            height: 400px;
+            margin-right: -300px;
+            background-color: #5a686f;
+            text-align: center;
+            flex-direction: column;
+            transform: translateX(-800px);
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            .nav-item{
+                padding-bottom: 25px;
+                padding-top: 20px;
+            }
+        }
+    }
+    .checkbox:checked ~ .nav-list{
+        transform: translateX(0px);
+        opacity: 100;
+    }
+    .site-img_tab{
+        width: 450px;
+        margin-top: -800px;
+        margin-left: -500px;
+    }
+    .bulb{
+        width: 60px;
+        padding-top: 360px;
+        margin-left: 70px;
+    }
+    .section-one{
+        width: 500px;
+        padding-top: 100px;
+        .section-one-text{
+            width: 500px;
+            height: 300px;
+            font-size: 20px;
+            
+            .section-one-text-one{
+                width: 700px;
+                margin-top: 350px;
+            }
+            .section-one-text-two{
+                font-size: 18px;
+                margin-top: -31px;
+            }
+        }
+    }
+    .section-two{
+        width: 500px;
+        padding-top: 10px;
+        .section-two-firsttext{
+            font-size: 30px;
+            margin-left: 80px;
+        }
+        .box-one{
+            width: 250px;
+            height: 490px;
+            margin-left: -295px;
+            .box-img-one{
+                width: 190px;
+            }
+            .buttom-two{
+                width: 150px;
+                height: 40px;
+                margin-top: 20px;
+                margin-left: 15px;
+                .buttom-two-text{
+                    padding-left: 30px;
+                    padding-top: 10px;
+                }
+            }
+        }
+        .box-text-two{
+            width: 240px;
+            padding-left: 10px;
+            margin-left: 5px;
+        }
+        .box-two{
+            width: 235px;
+            height: 400px;
+            .box-two-img{
+                width: 200px;
+                height: 170px;
+                padding-left: 5px;
+            }
+            .box-two-text{
+                width: 200px;
+                padding-left: 15px;
+                font-size: 18px;
+                margin-top: 15px;
+            }
+        }
+        .buttom-three{
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .buttom-three-text{
+            font-size: 15px;
+            padding-left: 40px;
+            padding-top: 10px;
+        }
+        .box-three{
+            width: 235px;
+            height: 400px;
+            margin-top: 600px;
+            margin-left: -500px;
+            .box-three-img{
+                width: 215px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                margin-left: 1px;
+            }
+        }
+        .box-three-text, .box-four-text{
+            padding-left: 20px;
+            padding-top: 20px;
+            font-size: 18px;
+        }
+        .box-four{
+            width: 235px;
+            height: 490px;
+            border-radius: 5px;
+            margin-top: 510px;
+            margin-left: 30px;
+            .box-four-text{
+                padding-top: 30px;
+                margin-bottom: -25px;
+            }
+            .buttom-four{
+                width: 153px;
+                height: 37px;
+                margin-top: 15px;
+                margin-left: 20px;
+            }
+            .buttom-four-text{
+                font-size: 15px;
+                padding-left: 40px;
+                padding-top: 10px;
+                margin-top: 100px;
+            }
+            .box-four-img{
+                width: 260px;
+                padding-left: 1px;
+                margin-left: -10px;
+                margin-top: 40px;
+                
+            }
+        }
+    }
+        .section-three{
+            padding-top: 400px;
+                .section-thee-text{
+                    font-size: 30px;
+                }
+                .section-three-text-2{
+                    font-size: 15px;
+                    width: 300px;
+                    padding-top: 50px;
+                    
+                }
+        
+        .siteimg{
+            margin-top: -350px;
+            margin-left: -430px;
+        }
+        .competition-for_tab{
+            display: block;
+        }
+        .cast{
+            width: 500px;
+            margin-top: 350px;
+            font-size: 20px;
+            .cost{
+                padding-left: 955px;
+                .teachers-number, .languages-number{
+                    margin-left: 95px;
+                }
+            }
+            .pupils, .teachers, .language{
+                font-size: 20px;
+                padding-left: 945px;
+            }
+            .teachers{
+                padding-left: 50px;
+            }
+            .language{
+                padding-left: 50px;
+            }
+        }
+        
+    }
+        .pricing-title{
+            font-size: 30px;
+            padding-left: 200px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .section-four_images{
+            width: 100%;
+            padding-bottom: 40px;
+        .section-four-img{
+            width: 300px;
+            margin-left: 100px;
+        }
+        .section-four-img2, .section-four-img3{
+            width: 300px;
+            padding-left: 5px;
+            margin-left: 100px;
+            margin-top: 200px;
+        }
+    }
+    .ul-item{
+        margin-top: -1150px;
+        padding-left: 100px;
+    }
+    .section-four-text{
+        font-size: 18px;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .section-four-text2{
+        width: 200px;
+        font-size: 18px;
+    }
+    .section-four-text-box{
+        padding-bottom: 10px;
+    }
+    .li-item, .li-item2, .li-item3{
+        padding-left: 45px;
+        margin-top: 200px;
+    }
+    .li-item3{
+        margin-top: 250px;
+    }
+    .cena{
+        width: 200px;
+        height: 50px;
+        margin-top: 25px;
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .last_body{
+        width: 992px;
+        display: inline;
+        margin: 0 auto;
+        padding-top: 180px;
+        .last_img{
+            width: 100%;
+            
+        }
+        .resourse-img{
+            width: 400px;
+            margin-top:50px;
+            margin-left: 80px;
+
+        }
+        .last_title{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            h4{
+                font-size: 12px;
+                width: 100%;
+            }
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    .footer{
+        width: 500px;
+        .footer-logo{
+            font-size: 24px;        
+        }
+        .footer-logo-second{
+            font-size: 24px;
+            margin-top: 16px;
+        }
+        .footer-text{
+            font-size: 18px;
+            padding-top: 22px;
+            padding-left: 5px;
+        }
+    }
+}
+@media only screen and(max-width: 320px){
+    .container{
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .section-two{
+        width: 300px;
+    }
+    .bulb{
+        margin-left: 100px;
+    }
+}
